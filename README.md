@@ -1,48 +1,26 @@
-Readme 수정 중...
-
 # SITWITH Project
-- 와인 판매 및 추천 사이트 <a href="https://www.vivino.com/">Vivino</a> 홈페이지의 컨셉과 비슷하게 제로베이스부터 구축해본 사이트
-- 구현 시연 영상 : [https://www.youtube.com/watch?v=ZKLUUm3uvxg](https://youtu.be/2ba5S6P-p7s)
-- Front-End GitHub Repository : https://github.com/wecode-bootcamp-korea/31-1st-Wesop-frontend
-- Back-End GitHub Repository : https://github.com/wecode-bootcamp-korea/31-2nd-OldVintage-backend
+- 의자 쇼핑몰 <a href="https://www.sidiz.com/">시디즈</a> 홈페이지의 컨셉과 비슷하게 처음부터 구축해본 의자 쇼핑몰
+- 구현 시연 영상 : https://youtu.be/BntKDm9CtT0
+- Front-End GitHub Repository : https://github.com/wecode-bootcamp-korea/31-1st-SITWITH-frontend
+- Back-End GitHub Repository : https://github.com/wecode-bootcamp-korea/31-1st-SITWITH-backend
 
 ## 개발 기간 및 인원
-- 개발 기간 : 2022. 4. 11. - 2022. 4. 21.
-- 개발 인원 : 프론트엔드 3명 - 윤재웅, 전지현, 김민수 /
-            백엔드 2명 - 박광수(PM), 박지훈
+- 개발 기간 : 2022. 3. 28. - 2022. 4. 7.(11일)
+- 개발 인원 : 프론트엔드 4명 - 김재도, 김민수, 구본희, 김경현
+            백엔드 2명 - 황정현(PM), 박지훈
 
 ## 사용기술 스택
-- Front-End : React.js, React Library Material UI, React Slick, Styled-Components, react-infinite-scroll-component, React Router
-- Back-End : Python, Django, Mysql, AWS(EC2, RDS, S3), boto3
+- Front-End : JavaScript, React.js, Sass, React Hook, Advanced Router
+- Back-End : python, django, mysql, AWS, JWT, Bcrypt
 - 협업 툴 : GitHub, Trello, Slack
 
 ## 프로젝트 내 구현된 기능
-아래 기능 중 저는 React Library Material UI를 이용한 Nav, Footer가 포함된 <b>메인페이지</b>와 Kakao Developers 문서를 참고해 <b>카카오 소셜 로그인</b> 기능 구현을 담당했습니다.
-- 메인페이지
-- 카카오 소셜 로그인
+아래 기능 중 저는 전체 상품 페이지내 <b>제품 리스트를 받아와 렌더링 하는 기능, Sass를 이용한 UI 구현, Advance Router를 이용한 페이지네이션 기능 구현</b>을 담당했습니다. 
+- 슬라이드가 들어간 메인페이지
+- 로그인 및 회원가입 기능
+- 로그인 된 회원만 사용 가능한 페이지
 - 전체 상품 페이지
 - 카테고리별 상품 페이지
 - 제품 상세 페이지
-- 제품 다중필터 검색 기능
-- 해당 제품의 리뷰 작성 기능
-- 리뷰 작성 시 boto3, AWS S3를 통한 이미지 등록 기능
-
-<br/>
-<br/>
-👇 메인페이지
-<img src="https://user-images.githubusercontent.com/80399821/164908962-1d913969-9789-4b60-a9d0-605d045a6c7e.gif" width="480" height="270" />
-<br/>
-<br/>
-👇 카카오 로그인
-<img src="https://user-images.githubusercontent.com/80399821/164908998-edccf3c2-2fe9-434e-b0bf-4161a52cb31e.gif" width="480" height="270" />
-<br/>
-<br/>
-👇 상품 리스트, 다중 필터
-<img src="https://user-images.githubusercontent.com/80399821/164908995-8463124b-09cb-4c53-b24f-26a106bf8936.gif" width="480" height="270" />
-<br/>
-<br/>
-👇 제품 상세 페이지
-<img src="https://user-images.githubusercontent.com/80399821/164909066-7c36d1a3-0f3f-4224-9e13-2b46a629af1e.gif" width="480" height="270" />
-<br/>
-
-
+- 제품 페이지네이션
+- 제품 장바구니 등록 및 비교하기 기능
